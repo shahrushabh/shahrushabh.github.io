@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Rushabh Shah</title>
+    <link>https://shahrushabh.github.io/project/index.xml</link>
+    <description>Recent content in Projects on Rushabh Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Rushabh Shah</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mars Rover</title>
+      <link>https://shahrushabh.github.io/project/mars_rover/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/project/mars_rover/</guid>
+      <description>
+
+&lt;p&gt;Mars Rover is an embedded system projects, that exposes students to embedded programming. Making use of C programming language along with the VORTEX platform, &amp;ldquo;that includes iRobot Create, the Cerebot II board, and attachments such as servo, SONAR, IR sensor, and LCD&amp;rdquo; panel. Teams, group of 3-4, are asked to calibrate sensors and program the robot for different tasks, one at a time. For example, Moving and turning the robot accurately, receiving and sending messages using serial communication, calibration of various sensors, and so on. The final project demonstration depends on the accuracy with which data is being fetched and analyzed. Demo required students to navigate the robot to the destination, without looking at the course, by analysis of data, in real time, received from the robot&amp;rsquo;s sensors.&lt;/p&gt;
+
+&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;
+
+&lt;p&gt;Every team is given 10 minutes to navigate their robot through the maze and find the destination, determined by the supervising TA. Teams get penalized for hitting one of the obstacles or going out of bounds, or falling into the trap. Going over the time limit is also subject to penalty.&lt;/p&gt;
+
+&lt;h3 id=&#34;responsibility&#34;&gt;Responsibility&lt;/h3&gt;
+
+&lt;p&gt;My team included a group of 4 people; myself and one CprE major, one Com S major and one EE student. Having different major created some misunderstanding occasionally, but everything worked out at the end with hard work. Through:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Calibration of iRobot&amp;rsquo;s sensors, including Sonar sensor, IR sensor, Servo.&lt;/li&gt;
+&lt;li&gt;Serial Data transmission for sending commands and receiving data.&lt;/li&gt;
+&lt;li&gt;With curiosity and eager to learn, I took an extra step to implement the matlab GUI and communication logic between the robot and computer which served as very useful component during our program execution.&lt;/li&gt;
+&lt;li&gt;Plot and update the graph with the most recent data received from the iRobot.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ticket Trading</title>
+      <link>https://shahrushabh.github.io/project/ticket_sell/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/project/ticket_sell/</guid>
+      <description>
+
+&lt;p&gt;Ticket Trading utilizes android and its features to provide, easy-to-use and convenient, ticket trading platform for its users. Core features include, list one or multiple tickets for sale, browse through available tickets in a list mode or see a detailed view of a specific listing, search for specific tickets with dedicated controls, and option to sort by price, date, and type. Additional features include facebook login, history of tickets listed, and integrated messaging to negotiate deals.&lt;/p&gt;
+
+&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;
+
+&lt;p&gt;Considering the amount of time that was available, our team&amp;rsquo;s primary goal was to deliver everything that we had proposed. Considering team&amp;rsquo;s background in regards to the tools used in this project, I would say we accomplished our goal.&lt;/p&gt;
+
+&lt;h3 id=&#34;responsibility&#34;&gt;Responsibility&lt;/h3&gt;
+
+&lt;p&gt;Three, including me, out of four people in my team had never experienced Android development, thus it was the new experience for all of us. Our ultimate goal was to deliver a functional and user-friendly android app. With no prior android or web development experience, I took the responsibility of back-end development. I took advantage of Google&amp;rsquo;s library, Volley, for transmission of data between client and server. php was used for data manipulation on server-side with MySQL database for storage. My contribution included following things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Utilize Volley library to make a round trip, i.e. from generating client requests to parsing the received response.&lt;/li&gt;
+&lt;li&gt;Implement php scripts to handle client requests, access MySQL database to insert, update or query data, and send results back to client.&lt;/li&gt;
+&lt;li&gt;Manage database using MySQL workbench.&lt;/li&gt;
+&lt;li&gt;Debug and solve conflicts that arise while merging code, using Git.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
