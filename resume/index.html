@@ -138,24 +138,24 @@
   
   <div class="article-style" itemprop="articleBody"><p><button id="toggle" type="button" class="btn btn-default" style="float:right;">EXPAND ALL</button><br/></p>
 
-<div class="panel panel-primary">
+<div class="panel panel-info">
   <div href="#summary" data-toggle="collapse" class="panel-heading">Summary</div>
   <div class="panel-body collapse" id="summary">
-  <p class="left-space">As a Software Engineer, I have built various software, mobile and webapplications. I am passionate about developing sophisticated software and implementing creative ideas. I work well in team environment and can also handle individual projects with minimal supervision. Through professional and class work, I gained excellent verbal skills and positive attitude that can help with effective contribution.</p>
+  <p class="left-space">Experienced Web Developer with a demonstrated history of working in the higher education industry. Skilled in LAMP Stack, Python, and Java. Strong engineering professional with a Bachelor’s Degree focused in Computer Engineering from Iowa State University. </p>
   </div>
 </div>
 
-<div class="panel panel-primary">
+<div class="panel panel-info">
   <div href="#professional_experience" data-toggle="collapse" class="panel-heading">Experience</div>
   <div class="panel-body collapse" id="professional_experience">
-      <h4 class="list-group-item-heading"> Web Developer: Iowa State University <small class="text-muted"><i><a href="http://admissions.iastate.edu" target="_blank">Office of Admissions</a></i></small>
+      <h4 class="list-group-item-heading"> Web Application Developer: <i><a href="http://admissions.iastate.edu" target="_blank">Office of Admissions</a></i> <a href="http://iastate.edu">@ Iowa State University</a> 
       </h4>
       <p class="list-group-item-text">
       <ul>
           <li> Develop web applications on LAMP stack in an agile environment. </li>
-          <li> Implement PHP scrips that preforms batch jobs that syncs data between IT department and admissions system. </li>
-          <li> Implement real time portal systems that is utilized by all colleges and departments on campus. </li>
-          <li> Implement account creation, authentication system for career exploration - <a href="http://planyouradventure.net" target="_blank">My Academic Plan</a>. </li>
+          <li> Implement PHP scrips that preforms batch jobs for data synchronization between IT department and admissions system. </li>
+          <li> Implement real time portal systems, utilized by all colleges and departments on campus. </li>
+          <li> Implement authentication system for career exploration - <a href="http://planyouradventure.net" target="_blank">My Academic Plan</a>. </li>
           <li> Alter MySQL databases for storage efficiency. </li>
           <li> Enhance existing software with modification or replacement. </li>
           <li> Conduct thorough testing of solutions implemented and occasionally present implementation to client. </li>
@@ -164,14 +164,43 @@
   </div>
 </div>
 
-<div class="panel panel-primary">
+<div class="panel panel-info">
   <div href="#education_and_skills" data-toggle="collapse" class="panel-heading">Education and Skills</div>
   <div class="panel-body collapse" id="education_and_skills">
-    <a href="http://ece.iastate.edu" target="_blank">Iowa State University, College of Engineering</a> | Ames, Iowa
+    <div>
+        <h4><i class="fa fa-university" aria-hidden="true"></i> Education</h4>
+        <a href="http://ece.iastate.edu" target="_blank">College of Engineering, Iowa State University</a>
+    </div>
+    <hr/>
+    <div class="col-md-4">
+        <strong>Languages</strong>
+        <ul style="list-style-type:none; display:inline">
+            <li> <i class="fa fa-cloud" aria-hidden="true"></i> LAMP Stack </li>
+            <li> <i class="fa fa-code" aria-hidden="true"></i> Python </li>
+            <li> <i class="fa fa-database" aria-hidden="true"></i> MySQL, Hadoop </li>
+            <li> <i class="fa fa-object-group" aria-hidden="true"></i> Java, C# </li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <strong>Tools</strong>
+        <ul style="list-style-type:none; display:inline">
+            <li> <i class="fa fa-code-fork" aria-hidden="true"></i> Git, RCS </li>
+            <li> <i class="fa fa-clone" aria-hidden="true"></i> JIRA, Trello </li>
+            <li> <i class="fa fa-file-code-o" aria-hidden="true"></i> Atom & various others </li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <strong>Platforms</strong>
+        <ul style="list-style-type:none; display:inline">
+            <li> <i class="fa fa-linux" aria-hidden="true"></i> Linux </li>
+            <li> <i class="fa fa-android" aria-hidden="true"></i> Android </li>
+            <li> <i class="fa fa-microchip" aria-hidden="true"></i> GAE </li>
+        </ul>
+    </div>
   </div>
 </div>
 
-<div class="panel panel-primary">
+<div class="panel panel-info">
     <div href="#projects_and_experiments" data-toggle="collapse" class="panel-heading">Projects and Experiments</div>
     <div class="panel-body collapse" id="projects_and_experiments">
     <h4 class="list-group-item-heading"> Quick Quote Program: Van Gorp Corporation </h4>
@@ -209,16 +238,16 @@
 
 <script>
     $(function(){
-        $('#summary').collapse('show');
+        $('#education_and_skills').collapse('show');
         $('#toggle').click(function(){
             if($('#toggle').html() == 'COLLAPSE ALL'){
                 $('#toggle').html('EXPAND ALL');
-                $('.collapse').each(function(){
+                $('.panel-body').each(function(){
                     $(this).collapse('hide');
                 });
             }else{
                 $('#toggle').html('COLLAPSE ALL');
-                $('.collapse').each(function(){
+                $('.panel-body').each(function(){
                     $(this).collapse('show');
                 });
             }
