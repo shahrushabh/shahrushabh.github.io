@@ -36,14 +36,57 @@
 
 &lt;h3 id=&#34;responsibility&#34;&gt;Responsibility&lt;/h3&gt;
 
-&lt;p&gt;My team included a group of 4 people; myself and one CprE major, one Com S major and one EE student. Having different major created some misunderstanding occasionally, but everything worked out at the end with hard work. Through:&lt;/p&gt;
+&lt;p&gt;Tasks I performed included:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Calibration of iRobot&amp;rsquo;s sensors, including Sonar sensor, IR sensor, Servo.&lt;/li&gt;
 &lt;li&gt;Serial Data transmission for sending commands and receiving data.&lt;/li&gt;
-&lt;li&gt;With curiosity and eager to learn, I took an extra step to implement the matlab GUI and communication logic between the robot and computer which served as very useful component during our program execution.&lt;/li&gt;
+&lt;li&gt;Implement GUI and communication between the robot and desktop in Matlab.&lt;/li&gt;
 &lt;li&gt;Plot and update the graph with the most recent data received from the iRobot.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div id=&#34;carousel-marsrover&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+  &lt;ol style=&#34;background-color:darkgrey&#34; class=&#34;carousel-indicators&#34;&gt;
+    &lt;li data-target=&#34;#carousel-marsrover&#34; data-slide-to=&#34;0&#34; class=&#34;active&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-marsrover&#34; data-slide-to=&#34;1&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-marsrover&#34; data-slide-to=&#34;2&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-marsrover&#34; data-slide-to=&#34;3&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-marsrover&#34; data-slide-to=&#34;4&#34;&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+    &lt;div class=&#34;item active&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/marsrover/home_view.png&#34; class=&#34;img-responsive&#34; alt=&#34;Home View&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;p style=&#34;color:grey&#34;&gt;Object detection&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/marsrover/course.jpg&#34; class=&#34;img-responsive&#34; alt=&#34;Maze&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;p&gt;Maze to Navigate&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/marsrover/destination.png&#34; class=&#34;img-responsive&#34; alt=&#34;Destination detection&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;p style=&#34;color:darkblue&#34;&gt;Destination detection by sensors&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/marsrover/commands.png&#34; class=&#34;img-responsive&#34; alt=&#34;Command Execution&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;p style=&#34;color:grey&#34;&gt;Data collection&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/marsrover/goal_reached.png&#34; class=&#34;img-responsive&#34; alt=&#34;Goal Reached!&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+        &lt;p style=&#34;color:green&#34;&gt;Goal Reached!&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -59,18 +102,50 @@
 
 &lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;
 
-&lt;p&gt;Considering the amount of time that was available, our team&amp;rsquo;s primary goal was to deliver everything that we had proposed. Considering team&amp;rsquo;s background in regards to the tools used in this project, I would say we accomplished our goal.&lt;/p&gt;
+&lt;p&gt;Our team&amp;rsquo;s primary goal was to deliver polished applications that includes features in out proposal. Considering team&amp;rsquo;s background in regards to the tools used in this project, I would say we accomplished our goal.&lt;/p&gt;
 
 &lt;h3 id=&#34;responsibility&#34;&gt;Responsibility&lt;/h3&gt;
 
-&lt;p&gt;Three, including me, out of four people in my team had never experienced Android development, thus it was the new experience for all of us. Our ultimate goal was to deliver a functional and user-friendly android app. With no prior android or web development experience, I took the responsibility of back-end development. I took advantage of Google&amp;rsquo;s library, Volley, for transmission of data between client and server. php was used for data manipulation on server-side with MySQL database for storage. My contribution included following things:&lt;/p&gt;
+&lt;p&gt;With no prior android or web development experience, I took the responsibility of back-end portion. I utilized Volley for transmission of data between client and server. PHP was used for data manipulation on server-side with MySQL database for storage. My contribution included following things:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Utilize Volley library to make a round trip, i.e. from generating client requests to parsing the received response.&lt;/li&gt;
-&lt;li&gt;Implement php scripts to handle client requests, access MySQL database to insert, update or query data, and send results back to client.&lt;/li&gt;
-&lt;li&gt;Manage database using MySQL workbench.&lt;/li&gt;
+&lt;li&gt;Utilized Volley library to allow client-server communications.&lt;/li&gt;
+&lt;li&gt;Implemented PHP scripts to handle client requests, access MySQL database to insert, update or query data, and send results back to client.&lt;/li&gt;
+&lt;li&gt;Design database schema for users and tickets.&lt;/li&gt;
 &lt;li&gt;Debug and solve conflicts that arise while merging code, using Git.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div id=&#34;carousel-ticket_sell&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+  &lt;ol style=&#34;background-color:darkgrey&#34; class=&#34;carousel-indicators&#34;&gt;
+    &lt;li data-target=&#34;#carousel-ticket_sell&#34; data-slide-to=&#34;0&#34; class=&#34;active&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-ticket_sell&#34; data-slide-to=&#34;1&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-ticket_sell&#34; data-slide-to=&#34;2&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-ticket_sell&#34; data-slide-to=&#34;3&#34;&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+    &lt;div class=&#34;item active&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/ticket_sell/gesture.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/ticket_sell/message.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/ticket_sell/home_view.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/ticket_sell/detail_view.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
