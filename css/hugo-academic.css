@@ -859,9 +859,14 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #0095eb;
-  font-weight: 700;
+  color: white;
+  font-weight: 900;
+  font-size: 1.1em;
   background-color: transparent !important; /* Override Bootstrap. */
+}
+
+.navbar-default .navbar-nav>.nav-item>a:hover {
+    color: lightgrey;
 }
 
 .navbar-brand,
