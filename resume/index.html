@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.19" />
   <meta name="author" content="Rushabh Shah">
-  <meta name="description" content="Web Developer">
+  <meta name="description" content="Web Application Developer">
 
   
   
@@ -143,7 +143,12 @@
 .panel-info, .list-group-item-heading, .small{
     color: #5D6D7E;
 }
-</style>
+.panel-info&gt;.panel-heading {
+    color: #AAB7B8;
+    background-color: #d9edf7;
+    border-color: #AAB7B8;
+}</style>
+<div id="resume">
 <div class="panel panel-info">
   <div href="#summary" data-toggle="collapse" class="panel-heading">Summary</div>
   <div class="panel-body collapse" id="summary">
@@ -252,9 +257,11 @@
     </p>
     </div>
 </div>
+</div>
 
 <script>
     $(function(){
+        $('a[href="/resume"]').parent().addClass("active");
         $('#summary').collapse('show');
         $('#toggle').click(function(){
             if($('#toggle').html() == 'COLLAPSE ALL'){
