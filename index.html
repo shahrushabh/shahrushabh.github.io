@@ -47,7 +47,7 @@
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main" style="background-color:#979A9A;">
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main" style="background-color:#1695A3;">
   <div class="container">
 
     
@@ -74,7 +74,7 @@
         <li class="nav-item">
           <a href="/#about" data-target="#about">
             
-            <span>Home</span>
+            <span>Bio</span>
           </a>
         </li>
 
@@ -84,9 +84,9 @@
         
 
         <li class="nav-item">
-          <a href="/#adventure" data-target="#adventure">
+          <a href="/#highlights" data-target="#highlights">
             
-            <span>Adventure</span>
+            <span>Highlights</span>
           </a>
         </li>
 
@@ -108,9 +108,9 @@
         
 
         <li class="nav-item">
-          <a href="/#academics" data-target="#academics">
+          <a href="/#skills" data-target="#skills">
             
-            <span>Academics</span>
+            <span>Technicals</span>
           </a>
         </li>
 
@@ -144,7 +144,7 @@
   
   
   
-  <section id="about" class="home-section" style="background-color:#EBEDEF;">
+  <section id="about" class="home-section" style="background-color:#F3FFE2;">
     <div class="container">
       
 
@@ -267,7 +267,7 @@ $(document).ready(function(){
   
   
   
-  <section id="adventure" class="home-section" style="background-color:#AAB7B8;">
+  <section id="highlights" class="home-section" style="background-color:#ACF0F2;">
       <div class="container">
           
 
@@ -278,13 +278,18 @@ $(document).ready(function(){
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <ul class="timeline ">
-    <li>
-      <div class="timeline-badge" style="background-color: #C0A92B"><i class="fa fa-server" aria-hidden="true"></i></div>
-      <div class="timeline-panel" id="web_dev">
-        <div class="timeline-heading" style="background-color: #C0A92B">
+    <p><style>
+.text-muted{
+    color: white;
+}
+</style>
+<ul class="timeline ">
+    <li id="web_dev">
+      <div class="timeline-badge" style="background-color: #F29F05"><i class="fa fa-server" aria-hidden="true"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading" style="background-color: #F29F05">
           <h4 class="timeline-title">Web developer
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Spring '16 - Present</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Spring &lsquo;16 - Present</small></p>
           </h4>
         </div>
         <div class="timeline-body">
@@ -292,61 +297,61 @@ $(document).ready(function(){
         </div>
       </div>
     </li>
-    <li class="timeline-inverted">
-        <div class="timeline-badge" style="background-color:#4EEB98;"><i class="fa fa-university" aria-hidden="true"></i></div>
-      <div class="timeline-panel" id="college">
-        <div class="timeline-heading" style="background-color: #4EEB98">
+    <li class="timeline-inverted" id="college">
+    <div class="timeline-badge" style="background-color:#E82935;"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading" style="background-color: #E82935">
           <h4 class="timeline-title">Computer Engineering
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall '13 - Present</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Spring &lsquo;17</small></p>
           </h4>
         </div>
         <div class="timeline-body">
-          <p>Graduate from Iowa State University</p>
+          <p>Complete Bachelor of Science from Iowa State University</p>
         </div>
       </div>
     </li>
-    <li>
-      <div class="timeline-badge" style="background-color:#EB984E;"><i class="fa fa-user-o" aria-hidden="true"></i></div>
-      <div class="timeline-panel"  id="leader">
-        <div class="timeline-heading" style="background-color:#EB984E">
+    <li id="leader">
+      <div class="timeline-badge" style="background-color:#F25C05;"><i class="fa fa-group" aria-hidden="true"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading" style="background-color:#F25C05">
           <h4 class="timeline-title">Project Leader
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall '16 - Spring '17</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall &lsquo;16 - Spring &lsquo;17</small></p>
           </h4>
         </div>
         <div class="timeline-body">
-          <p>Lead the team through design and implementation</p>
+          <p>Lead team through software design and implementation</p>
         </div>
       </div>
     </li>
-    <li class="timeline-inverted">
-      <div class="timeline-badge" style="background-color:#8DC02B"><i class="fa fa-trophy" aria-hidden="true"></i></div>
-      <div class="timeline-panel" id="honor">
-        <div class="timeline-heading" style="background-color: #8DC02B">
+    <li class="timeline-inverted" id="honor">
+      <div class="timeline-badge" style="background-color:#9E1B1B"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading" style="background-color: #9E1B1B">
           <h4 class="timeline-title">Deans List Honor
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall '16</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall &lsquo;16</small></p>
           </h4>
         </div>
         <div class="timeline-body">
-          <p>Recipient of Deans List Honor</p>
+          <p>Deans List Honor Recipient</p>
         </div>
       </div>
     </li>
-</ul>
+</ul></p>
 
 <script>
 $(document).ready(function(){
     $(window).scroll(function() {
         if($( "#web_dev" ).isInViewport().length > 0){
-            $( "#web_dev" ).addClass( "animated fadeInLeft" );
+            $( "#web_dev" ).addClass( "animated flipInX" );
         }
         if($( "#honor" ).isInViewport().length > 0){
-            $( "#honor" ).addClass( "animated fadeInRight" );
+            $( "#honor" ).addClass( "animated flipInX" );
         }
         if($( "#leader" ).isInViewport().length > 0){
-            $( "#leader" ).addClass( "animated fadeInLeft" );
+            $( "#leader" ).addClass( "animated flipInX" );
         }
         if($( "#college" ).isInViewport().length > 0){
-            $( "#college" ).addClass( "animated fadeInRight" );
+            $( "#college" ).addClass( "animated flipInX" );
         }
     });
 });
@@ -363,7 +368,7 @@ $(document).ready(function(){
   
   
   
-  <section id="projects" class="home-section" style="background-color:#EBEDEF;">
+  <section id="projects" class="home-section" style="background-color:#F3FFE2;">
     <div class="container">
       
 
@@ -375,7 +380,18 @@ $(document).ready(function(){
     
   </div>
   <div class="col-xs-12 col-md-8">
-    
+    <p><script>
+$(document).ready(function(){
+    $(window).scroll(function() {
+        $( ".project-item" ).each(function(){
+            if($(this).isInViewport().length > 0){
+                $( ".project-item" ).addClass( "animated zoomIn" );
+            }
+        });
+    });
+});
+</script>
+</p>
 
     <div class="project-toolbar" style="width:100%">
       <div id="filters">
@@ -384,7 +400,7 @@ $(document).ready(function(){
           
             <a href="#" data-filter="*" class="btn btn-default btn-group-xs btn-large active">All</a>
           
-            <a href="#" data-filter=".hadoop" class="btn btn-default btn-group-xs btn-large">Hadoop</a>
+            <a href="#" data-filter=".Bigdata" class="btn btn-default btn-group-xs btn-large">Bigdata</a>
           
             <a href="#" data-filter=".android" class="btn btn-default btn-group-xs btn-large">Android</a>
           
@@ -403,7 +419,7 @@ $(document).ready(function(){
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item hadoop">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item Bigdata">
         <div class="card">
           
           <a href="https://shahrushabh.github.io/project/hadoop/" title="" class="card-image hover-overlay"
@@ -412,7 +428,7 @@ $(document).ready(function(){
           </a>
           
           <div class="card-text">
-            <h4><a href="https://shahrushabh.github.io/project/hadoop/" >Data Analysis</a></h4>
+            <h4><a href="https://shahrushabh.github.io/project/hadoop/" >Big Data Analysis</a></h4>
             <div class="card-desription">
               <p>Data analysis using Hadoop</p>
             </div>
@@ -476,27 +492,44 @@ $(document).ready(function(){
   
   
   
-  <section id="academics" class="home-section" style="background-color:#AAB7B8;">
+  <section id="skills" class="home-section" style="background-color:#ACF0F2;">
       <div class="container">
           
 
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Academics</h1>
+    <h1>Techs</h1>
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>Relevant courses:</p>
-
-<ul>
-<li>Object oriented programming (CS 227)</li>
-<li>Data structure (CS 228)</li>
-<li>Design and Analysis of algorithms (CS 311)</li>
-<li>An intro to machine learning (CS 474)</li>
-<li>Embedded Systems II (CPR E 288)</li>
-<li>Software Tools for Large Scale Data Analysis (CPR E 419)</li>
-</ul>
+    <div>
+<div class="col-md-4">
+    <strong>Programming</strong>
+    <ul style="list-style-type:none; display:inline">
+        <li> <i class="fa fa-cloud" aria-hidden="true"></i> LAMP Stack </li>
+        <li> <i class="fa fa-object-group" aria-hidden="true"></i> Java, C# </li>
+        <li> <i class="fa fa-code" aria-hidden="true"></i> Python, JS </li>
+        <li> <i class="fa fa-database" aria-hidden="true"></i> MySQL, Hadoop </li>
+    </ul>
+</div>
+<div class="col-md-4">
+    <strong>Tools</strong>
+    <ul style="list-style-type:none; display:inline">
+        <li> <i class="fa fa-code-fork" aria-hidden="true"></i> Git, RCS </li>
+        <li> <i class="fa fa-clone" aria-hidden="true"></i> JIRA, Trello </li>
+        <li> <i class="fa fa-file-code-o" aria-hidden="true"></i> Atom & various others </li>
+    </ul>
+</div>
+<div class="col-md-4">
+    <strong>Platforms</strong>
+    <ul style="list-style-type:none; display:inline">
+        <li> <i class="fa fa-linux" aria-hidden="true"></i> Linux </li>
+        <li> <i class="fa fa-android" aria-hidden="true"></i> Android </li>
+        <li> <i class="fa fa-microchip" aria-hidden="true"></i> GAE </li>
+    </ul>
+</div>
+</div>
 
   </div>
 </div>
