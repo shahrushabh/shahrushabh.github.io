@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.19" />
+  <meta name="generator" content="Hugo 0.20" />
   <meta name="author" content="Rushabh Shah">
   <meta name="description" content="Web Application Developer">
 
@@ -47,7 +47,7 @@
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main" style="background-color:#1695A3;">
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
   <div class="container">
 
     
@@ -108,19 +108,7 @@
         
 
         <li class="nav-item">
-          <a href="/#skills" data-target="#skills">
-            
-            <span>Technicals</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
-          <a href="/resume" data-target="/resume">
+          <a href="/experience" data-target="/experience">
             
             <span>Resume</span>
           </a>
@@ -176,13 +164,6 @@
         
         
         <li>
-          <a href="//linkedin.com/in/rushabhsbit" target="_blank">
-            <i class="fa fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
           <a href="//github.com/shahrushabh" target="_blank">
             <i class="fa fa-github big-icon"></i>
           </a>
@@ -195,6 +176,13 @@
           </a>
         </li>
         
+        
+        <li>
+          <a href="//linkedin.com/in/rushabhsbit" target="_blank">
+            <i class="fa fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
       </ul>
 
     </div>
@@ -203,13 +191,15 @@
 
     <div id="biography">
     <h1>Biography</h1>
-    I am a Computer Engineering student at Iowa State University graduating in Spring of 2017. I have had experience in back-end web development with a demonstrated history of working in the higher education industry. Skilled in LAMP stack, Git, Github, and other various software development technologies. Strong engineering professional with a Bachelor’s Degree focused in Computer Engineering from Iowa State University.
+    <p>
+        I am a Computer Engineering student at Iowa State University graduating in Spring of 2017. Experienced in back-end web development in LAMP environment with a demonstrated history of working in the higher education industry. Comfortable with all parts of software life cycle including architecture design, implementation and support. Strong engineering professional with a Bachelor’s Degree focused in Computer Engineering from Iowa State University.
+    </p>
 </div>
 
 <script>
 $(document).ready(function(){
     if($( "#biography" ).isInViewport().length > 0){
-        $( "#biography" ).addClass( "animated fadeInDown" );
+        $( "#biography" ).addClass( "animated fadeInUp" );
     }
     if($( "#interests" ).isInViewport().length > 0){
         $( "#interests" ).addClass( "animated fadeInUp" );
@@ -267,7 +257,7 @@ $(document).ready(function(){
   
   
   
-  <section id="highlights" class="home-section" style="background-color:#ACF0F2;">
+  <section id="highlights" class="home-section" style="background-color:#97bfc1;">
       <div class="container">
           
 
@@ -385,7 +375,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
         $( ".project-item" ).each(function(){
             if($(this).isInViewport().length > 0){
-                $( ".project-item" ).addClass( "animated zoomIn" );
+                $( ".project-item" ).addClass( "animated pulse" );
             }
         });
     });
@@ -397,14 +387,6 @@ $(document).ready(function(){
       <div id="filters">
         <div class="btn-toolbar">
           <div class="btn-group">
-          
-            <a href="#" data-filter="*" class="btn btn-default btn-group-xs btn-large active">All</a>
-          
-            <a href="#" data-filter=".Bigdata" class="btn btn-default btn-group-xs btn-large">Bigdata</a>
-          
-            <a href="#" data-filter=".android" class="btn btn-default btn-group-xs btn-large">Android</a>
-          
-            <a href="#" data-filter=".embedded_systems" class="btn btn-default btn-group-xs btn-large">Embedded Systems</a>
           
           </div>
         </div>
@@ -485,56 +467,6 @@ $(document).ready(function(){
 </div>
 
     </div>
-  </section>
-  
-
-  
-  
-  
-  
-  <section id="skills" class="home-section" style="background-color:#ACF0F2;">
-      <div class="container">
-          
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Techs</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <div>
-<div class="col-md-4">
-    <strong>Programming</strong>
-    <ul style="list-style-type:none; display:inline">
-        <li> <i class="fa fa-cloud" aria-hidden="true"></i> LAMP Stack </li>
-        <li> <i class="fa fa-object-group" aria-hidden="true"></i> Java, C# </li>
-        <li> <i class="fa fa-code" aria-hidden="true"></i> Python, JS </li>
-        <li> <i class="fa fa-database" aria-hidden="true"></i> MySQL, Hadoop </li>
-    </ul>
-</div>
-<div class="col-md-4">
-    <strong>Tools</strong>
-    <ul style="list-style-type:none; display:inline">
-        <li> <i class="fa fa-code-fork" aria-hidden="true"></i> Git, RCS </li>
-        <li> <i class="fa fa-clone" aria-hidden="true"></i> JIRA, Trello </li>
-        <li> <i class="fa fa-file-code-o" aria-hidden="true"></i> Atom & various others </li>
-    </ul>
-</div>
-<div class="col-md-4">
-    <strong>Platforms</strong>
-    <ul style="list-style-type:none; display:inline">
-        <li> <i class="fa fa-linux" aria-hidden="true"></i> Linux </li>
-        <li> <i class="fa fa-android" aria-hidden="true"></i> Android </li>
-        <li> <i class="fa fa-microchip" aria-hidden="true"></i> GAE </li>
-    </ul>
-</div>
-</div>
-
-  </div>
-</div>
-
-      </div>
   </section>
   
 

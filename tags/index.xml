@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Rushabh Shah</title>
+    <link>https://shahrushabh.github.io/tags/</link>
+    <description>Recent content in Tags on Rushabh Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Rushabh Shah</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://shahrushabh.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://shahrushabh.github.io/tags/android/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bigdata</title>
+      <link>https://shahrushabh.github.io/tags/bigdata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/bigdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business</title>
+      <link>https://shahrushabh.github.io/tags/business/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedded_systems</title>
+      <link>https://shahrushabh.github.io/tags/embedded_systems/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/embedded_systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server_integration</title>
+      <link>https://shahrushabh.github.io/tags/server_integration/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/server_integration/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
