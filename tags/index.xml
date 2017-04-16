@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://shahrushabh.github.io/tags/android/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://shahrushabh.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bigdata</title>
       <link>https://shahrushabh.github.io/tags/bigdata/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -39,11 +30,11 @@
     </item>
     
     <item>
-      <title>Business</title>
-      <link>https://shahrushabh.github.io/tags/business/</link>
+      <title>Cloud App</title>
+      <link>https://shahrushabh.github.io/tags/cloud-app/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://shahrushabh.github.io/tags/business/</guid>
+      <guid>https://shahrushabh.github.io/tags/cloud-app/</guid>
       <description></description>
     </item>
     
@@ -57,11 +48,20 @@
     </item>
     
     <item>
-      <title>Server_integration</title>
-      <link>https://shahrushabh.github.io/tags/server_integration/</link>
+      <title>Gae</title>
+      <link>https://shahrushabh.github.io/tags/gae/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://shahrushabh.github.io/tags/server_integration/</guid>
+      <guid>https://shahrushabh.github.io/tags/gae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ocr</title>
+      <link>https://shahrushabh.github.io/tags/ocr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/tags/ocr/</guid>
       <description></description>
     </item>
     
