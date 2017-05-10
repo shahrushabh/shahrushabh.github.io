@@ -98,7 +98,7 @@ It allows user to record their budget and everyday expenses. It simply then trac
 &lt;li&gt;Provides simple and intuitive interface to work with&lt;/li&gt;
 &lt;li&gt;Allows customized groups and categories and remembers it going forward&lt;/li&gt;
 &lt;li&gt;Cloud based solution that can be scaled if needed&lt;/li&gt;
-&lt;li&gt;Take it for a &lt;a href=&#34;http://rtrack-141420.appspot.com/&#34; target=&#34;_blank&#34;&gt;Test Drive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rtrack-141420.appspot.com/&#34; target=&#34;_blank&#34;&gt;Try it yourself!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div id=&#34;carousel-budgeter&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
@@ -188,6 +188,51 @@ It allows user to record their budget and everyday expenses. It simply then trac
     &lt;/div&gt;
     &lt;div class=&#34;item&#34;&gt;
       &lt;img src=&#34;https://shahrushabh.github.io/img/i-attend/courselist.png&#34; class=&#34;img-responsive&#34; alt=&#34;Goal Reached!&#34;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PizzaSeller</title>
+      <link>https://shahrushabh.github.io/project/pizza_seller/</link>
+      <pubDate>Sun, 27 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahrushabh.github.io/project/pizza_seller/</guid>
+      <description>
+
+&lt;p&gt;Pizza Seller is a online ordering application for a Pizzeria. It is built with web development tools: HTML, CSS, JavaScript and PHP. This application uses single page website paradigm while offering an easy access to all sections of the site. Customers can choose from available menu, and place their order within few clicks.&lt;/p&gt;
+
+&lt;h3 id=&#34;project-highlights&#34;&gt;Project highlights&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple and elegant web interface for ordering.&lt;/li&gt;
+&lt;li&gt;Integrated menu for specialty Piazzas, Slides, Drinks and Desserts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div id=&#34;carousel-budgeter&#34; class=&#34;carousel slide&#34; data-ride=&#34;carousel&#34;&gt;
+  &lt;ol style=&#34;background-color:darkgrey&#34; class=&#34;carousel-indicators&#34;&gt;
+    &lt;li data-target=&#34;#carousel-budgeter&#34; data-slide-to=&#34;0&#34; class=&#34;active&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-budgeter&#34; data-slide-to=&#34;1&#34;&gt;&lt;/li&gt;
+    &lt;li data-target=&#34;#carousel-budgeter&#34; data-slide-to=&#34;2&#34;&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;div class=&#34;carousel-inner&#34; role=&#34;listbox&#34;&gt;
+    &lt;div class=&#34;item active&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/pizzaseller/home_view.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/pizzaseller/menu.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item&#34;&gt;
+      &lt;img src=&#34;https://shahrushabh.github.io/img/pizzaseller/checkout.png&#34; class=&#34;img-responsive&#34; alt=&#34;Responsive image&#34;&gt;
+      &lt;div class=&#34;carousel-caption&#34;&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
