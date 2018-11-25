@@ -282,38 +282,51 @@ $(document).ready(function(){
 }
 </style>
 <ul class="timeline ">
-    <li id="web_dev">
+    <li id="software_dev">
+      <div class="timeline-badge" style="background-color: #2df205ce"><i class="fa fa-server" aria-hidden="true"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading" style="background-color: #2df205ce">
+          <h4 class="timeline-title">Software Developer
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;October &lsquo;17 - Current</small></p>
+          </h4>
+        </div>
+        <div class="timeline-body">
+          <p>Contribute to Business Lines Efforts at State Farm.</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted" id="web_dev">
       <div class="timeline-badge" style="background-color: #F29F05"><i class="fa fa-server" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading" style="background-color: #F29F05">
           <h4 class="timeline-title">LAMP Stack Developer
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Spring &lsquo;16 - Spring &lsquo;17</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;May &lsquo;16 - May &lsquo;17</small></p>
           </h4>
         </div>
         <div class="timeline-body">
-          <p>Develop web applications at for intranet and external users.</p>
+          <p>Develop web applications at for Office of Admissions @ Iowa State University.</p>
         </div>
       </div>
     </li>
-    <li class="timeline-inverted" id="college">
+    <li id="college">
     <div class="timeline-badge" style="background-color:#E82935;"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading" style="background-color: #E82935">
           <h4 class="timeline-title">Computer Engineering
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall &lsquo;13 - Spring &lsquo;17</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;August &lsquo;13 - May &lsquo;17</small></p>
           </h4>
         </div>
         <div class="timeline-body">
-          <p>Bachelor of Science from Iowa State University</p>
+          <p>Bachelor of Science @ Iowa State University</p>
         </div>
       </div>
     </li>
-    <li id="leader">
+    <li class="timeline-inverted" id="leader">
       <div class="timeline-badge" style="background-color:#F25C05;"><i class="fa fa-group" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading" style="background-color:#F25C05">
           <h4 class="timeline-title">Project Leader
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall &lsquo;16 - Spring &lsquo;17</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;August &lsquo;16 - May &lsquo;17</small></p>
           </h4>
         </div>
         <div class="timeline-body">
@@ -321,12 +334,12 @@ $(document).ready(function(){
         </div>
       </div>
     </li>
-    <li class="timeline-inverted" id="honor">
+    <li id="honor">
       <div class="timeline-badge" style="background-color:#9E1B1B"><i class="fa fa-trophy" aria-hidden="true"></i></div>
       <div class="timeline-panel">
         <div class="timeline-heading" style="background-color: #9E1B1B">
           <h4 class="timeline-title">Deans List Honor
-            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;Fall &lsquo;16</small></p>
+            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>&nbsp;August &lsquo;16</small></p>
           </h4>
         </div>
         <div class="timeline-body">
@@ -339,6 +352,9 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
     $(window).scroll(function() {
+        if($( "#software_dev" ).isInViewport().length > 0){
+            $( "#software_dev" ).addClass( "animated flipInX" );
+        }
         if($( "#web_dev" ).isInViewport().length > 0){
             $( "#web_dev" ).addClass( "animated flipInX" );
         }
@@ -524,7 +540,7 @@ $(document).ready(function(){
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Rushabh Shah &middot; 
+      &copy; 2018 Rushabh Shah &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
@@ -540,7 +556,6 @@ $(document).ready(function(){
     </p>
   </div>
 </footer>
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/is-in-viewport/2.4.2/isInViewport.min.js"></script>
@@ -548,25 +563,8 @@ $(document).ready(function(){
     <script src="/js/isotope.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
     <script src="/js/hugo-academic.js"></script>
-    
-
-    
-
-    
-    
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
 
