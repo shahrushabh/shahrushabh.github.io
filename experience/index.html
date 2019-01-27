@@ -344,8 +344,10 @@
 <script>
     $(function(){
         $('a[href="/experience"]').parent().addClass("active");
-        // $('#summary').collapse('show');
-        $('.panel-heading').collapse('show');
+        $('#summary').collapse('show');
+        $('#professional_experience').collapse('show');
+        $('#education_and_skills').collapse('show');
+        $('#projects').collapse('show');
         $('#toggle').click(function(){
             if($('#toggle').html() == 'COLLAPSE ALL'){
                 $('#toggle').html('EXPAND ALL');
