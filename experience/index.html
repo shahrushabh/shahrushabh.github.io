@@ -22,7 +22,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
   <link rel="canonical" href="https://shahrushabh.github.io/experience/">
-  <title>Resume | Rushabh Shah</title>
+  <title>Curriculum Vitae | Rushabh Shah</title>
   <style>.left-space{padding-left:20px}</style>
 
 </head>
@@ -75,7 +75,7 @@
   </div>
 </nav>
 <div class="universal-wrapper">
-  <h1>Resume</h1>
+  <h1>Curriculum Vitae</h1>
   <div class="article-style" itemprop="articleBody"><p><style>
     h1{
         color: #074a6a;
@@ -192,7 +192,7 @@
 <form action="/files/Resume.pdf">
     <button type="submit" id="download" type="button" class="btn" style="float:right;background:transparent;border-color:#074a6a;color:#074a6a;">Download</button>
     &nbsp;&nbsp;
-    <button id="toggle" type="button" class="btn" style="float:right;background:transparent;border-color:#074a6a;color:#074a6a;">EXPAND ALL</button>
+    <button id="toggle" type="button" class="btn" style="float:right;background:transparent;border-color:#074a6a;color:#074a6a;">COLLAPSE ALL</button>
 </form><br/>
 <style>
 .panel-primary, .list-group-item-heading, .small{
@@ -203,14 +203,32 @@
 <div class="panel panel-primary">
   <div href="#summary" data-toggle="collapse" style="background-color: #37838F" class="panel-heading">Summary</div>
   <div class="panel-body collapse" id="summary">
-  <p class="left-space">Experienced Software Developer with a demonstrated history of working in the higher education industry. Skilled in web technologies <strong>(LAMP Stack, Java, and Python)</strong>, Big data processing <strong>(Hadoop Eco System)</strong> and exposed to embedded programming. Strong engineering professional with a Bachelor’s Degree focused in Computer Engineering from Iowa State University. </p>
+  <p class="left-space">
+    I am a passionate coder, I pursue building tools that are unimaginable and unthinkable. Always put things like automation, resource management & efficiency, and stability as a prerequisite for design and implementation. After all my intent is to invent technology that ameliorates upon human species.</p>
   </div>
 </div></p>
 
 <div class="panel panel-primary">
   <div href="#professional_experience" data-toggle="collapse" style="background-color: #37838F" class="panel-heading">Experience</div>
   <div class="panel-body collapse" id="professional_experience">
-      <h4 class="list-group-item-heading"> Backend Developer <span class="small">@</span><a href="http://admissions.iastate.edu" target="_blank" class="small">Office of Admissions</a>, <a href="http://iastate.edu" target="_blank" class="small">Iowa State University</a>
+      <h4 class="list-group-item-heading"> Software Developer <span class="small">@</span><a href="http://statefarm.com" target="_blank" class="small">State Farm Insurance</a>
+      <small><i style="float:right">Oct '17 - Present</i></small>
+      </h4>
+      <span class="label java-lang">Java EE</span>
+      <span class="label mysql-lang">Jenkins</span>
+      <span class="label linux-lang">Docker</span>
+      <span class="label linux-lang">Gosu (Guidewire) <small>~ Python</small></span>
+      <p class="list-group-item-text">
+      <ul style="list-style-type:circle;">
+          <li> Manage code synchronizations across multiple environments to prevent product deficiency </li>
+          <li> Full stack development for Business Lines products </li>
+          <li> Oversee & guide new engineers to build, develop and maintain systems </li>
+          <li> Elevate consumer experience through enhancements & patches </li>
+          <li> Achieve Automation & System stability through CI / CD tools </li>
+      </ul>
+      </p>
+      <hr  style="border-color:lightgray"/>
+      <h4 class="list-group-item-heading"> Full Stack Developer <span class="small">@</span><a href="http://admissions.iastate.edu" target="_blank" class="small">Office of Admissions</a>, <a href="http://iastate.edu" target="_blank" class="small">Iowa State University</a>
       <small><i style="float:right">May '16 - May '17</i></small>
       </h4>
       <span class="label php-lang">PHP</span>
@@ -218,13 +236,11 @@
       <span class="label linux-lang">Linux</span>
       <p class="list-group-item-text">
       <ul style="list-style-type:circle;">
-          <li> Developed web applications on LAMP stack in an agile environment. </li>
-          <li> Implemented PHP scripts that performs batch jobs for data synchronization between IT department and admissions system. </li>
-          <li> Implemented near real-time portal systems, used by all colleges and departments on campus. </li>
-          <li> Implemented authentication system for career exploration site - <a href="http://planyouradventure.net" target="_blank" class="text-muted">My Academic Plan</a> used by hundreds of middle schools and high schools. </li>
-          <li> Modified MySQL database structure for storage efficiency. </li>
-          <li> Implemented reporting tools for internal data and student surveys. </li>
-          <li> Conducted thorough testing of solutions implemented and occasionally present implementation to client. </li>
+          <li> Upgrade & Improve software systems build on LAMP stack for Office of Admissions </li>
+          <li> Reporting and Authentication capabilities for MAP <small><a href="http://planyouradventure.net" target="_blank" class="text-muted">My Academic Plan</a></small> initiative </li>
+          <li> Data synchronizations with nightly batches & Dynamic reporting tools used by colleges and departments </li>
+          <li> Data storage upgrades and maintenance </li>
+          <li> Test & Demo new features to stake holders and business partners </li>
       </ul>
       </p>
   </div>
@@ -314,8 +330,8 @@
     <span class="label windows-lang">Windows</span>
     <p class=list-group-item-text>
     <ul style="list-style-type:circle;">
-        <li> Lead the software team through design and implementation of WPF application </li>
-        <li> Gather requirements and specification from client </li>
+        <li> Lead team of 5 developers through design and implementation</li>
+        <li> Gather requirements and specification from client</li>
         <li> Research possible solutions that fit the specs </li>
         <li> Carry out implementation and testing </li>
         <li> Encourage code review and pull requests within the team </li>
@@ -328,7 +344,8 @@
 <script>
     $(function(){
         $('a[href="/experience"]').parent().addClass("active");
-        $('#summary').collapse('show');
+        // $('#summary').collapse('show');
+        $('.panel-heading').collapse('show');
         $('#toggle').click(function(){
             if($('#toggle').html() == 'COLLAPSE ALL'){
                 $('#toggle').html('EXPAND ALL');
@@ -345,24 +362,13 @@
     });
 </script>
 </div>
-
-
-
-
-
-
-
-
 </div>
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
-
       &copy; 2019 Rushabh Shah &middot;
-
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
-
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
           <span class="button_icon">
@@ -370,7 +376,6 @@
           </span>
         </a>
       </span>
-
     </p>
   </div>
 </footer>
@@ -382,15 +387,5 @@
     <script src="/js/isotope.pkgd.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
     <script src="/js/hugo-academic.js"></script>
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
